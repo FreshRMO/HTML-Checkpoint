@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en-US">
   <head>
+    <meta charset="UTF-8">
     <title>Practice Form</title>
   </head>
   <body>
     <form action='Test' method='post'>
       <input type='text' placeholder='email'><br>
       <input type='text' placeholder='Github Username'><br>
-      <input type='text' placeholder='Password'>
+      <input type='text' placeholder='Password'> <br>
+
+      <input type="radio" name="type" id="enterprise" value="enterprise">
+      <label for='enterprise'>Enterprise</label>
+      <input type='radio' name='type' id='pro' value='pro'>
+      <label for='pro'>Pro</label>
+      <input type='radio' name='type' id='free' value='free'>
+      <label for='free'>Free</label> <br>
+
+      <input type='checkbox' id='rememberMe' name='Save' value='Username'>
+      <label for='rememberMe'>Remember Me</label>
     </form>
-
-    <input type="radio" name="type" id="enterprise" value="enterprise">
-    <label for='enterprise'>Enterprise</label>
-    <input type='radio' name='type' id='pro' value='pro'>
-    <label for='pro'>Pro</label>
-    <input type='radio' name='type' id='free' value='free'>
-    <label for='free'>Free</label> <br>3
-
-    <input type='checkbox' id='remember me' name='Save' value='Username'>
-    <label for='remember me'>Remember Me</label>
   </body>
 </html>
