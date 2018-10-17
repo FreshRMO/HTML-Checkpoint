@@ -6,9 +6,12 @@
   </head>
   <body>
     <form action='Test' method='post'>
-      <input type='text' placeholder='email'><br>
-      <input type='text' placeholder='Github Username'><br>
-      <input type='text' placeholder='Password'> <br>
+      <label for='email'>Email</label>
+      <input type='text' id='email' placeholder='email' required><br>
+      <label for='username'>Username</label>
+      <input type='text' id='username' placeholder='Github Username' required><br>
+      <label for='password'>Password</label>
+      <input type='text' id='password' placeholder='Password' required> <br>
 
       <input type="radio" name="type" id="enterprise" value="enterprise">
       <label for='enterprise'>Enterprise</label>
@@ -19,6 +22,7 @@
 
       <input type='checkbox' id='rememberMe' name='Save' value='Username'>
       <label for='rememberMe'>Remember Me</label>
+      <button type='submit'>Submit</button>
     </form>
   </body>
 </html>
